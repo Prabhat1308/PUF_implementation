@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Sep 22 19:59:13 2023
+# Process ID: 12944
+# Current directory: C:/Users/prabh/PUFs
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22804 C:\Users\prabh\PUFs\PUFs.xpr
+# Log file: C:/Users/prabh/PUFs/vivado.log
+# Journal file: C:/Users/prabh/PUFs\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/prabh/PUFs/PUFs.xpr
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 22 19:59:32 2023...
