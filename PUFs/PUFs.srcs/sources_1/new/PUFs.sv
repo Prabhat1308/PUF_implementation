@@ -30,9 +30,14 @@ input wire ch5[15:0],
 input wire ch6[15:0],
 input wire ch7[15:0],
 input wire ch8[15:0],
-output wire key[127:0]
+//output wire key[127:0]
+output wire key[7:0]
  );
-  wire op1,op2,op3,op4,op5,op6,op7,op8;
+ 
+ always @(posedge clk);
+ 
+ begin
+ wire op1,op2,op3,op4,op5,op6,op7,op8,O1,O2,O3,O4,O5,O6,O7,O8;
  
  PDL_16 p1(ch1 ,clk, op1);
  shift_register r1(clk,op1,O1);
@@ -57,5 +62,16 @@ output wire key[127:0]
  
  PDL_16 p8(ch8 ,clk, op8);
  shift_register r8(clk,op8,O8);
+ 
+ assign key[0]=O1;
+ assign key[1]=O2;
+ assign key[2]=O3;
+ assign key[3]=O4;
+ assign key[4]=O5;
+ assign key[5]=O6;
+ assign key[6]=O7;
+ assign key[7]=O8;
+ 
+ end
  
 endmodule
