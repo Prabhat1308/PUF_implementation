@@ -1,9 +1,0 @@
-Vivado Simulator 2020.2
-Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto bb3e7b1463d24722aa03b8a1e56bdc5f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot PUF_tb_behav xil_defaultlib.PUF_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-ERROR: [VRFC 10-395] cannot assign a packed type to an unpacked type [C:/Users/prabh/PUFs/PUFs.srcs/sim_1/new/PUS_tb.sv:14]
-ERROR: [VRFC 10-395] cannot assign an unpacked type to a packed type [C:/Users/prabh/PUFs/PUFs.srcs/sources_1/new/PUFs.sv:34]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
